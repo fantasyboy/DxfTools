@@ -1,0 +1,3 @@
+System.Exception: Please select a driver project.
+   at Microsoft.SdvMenuCommand.DriverVerificationLicense..ctor()
+   at Microsoft.SdvMenuCommand.SdvMenuCommandPackage.StaticToolsLogoMenuItemCallback(Object sender, EventArgs e)

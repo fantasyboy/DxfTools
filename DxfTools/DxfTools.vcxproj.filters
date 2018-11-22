@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="任务管理器">
+      <UniqueIdentifier>{2e698eba-e4cb-413b-9118-e8ef52da8d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏管理器">
+      <UniqueIdentifier>{0b713c63-f299-4623-a9a3-2614aaa0f8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工具类">
+      <UniqueIdentifier>{e0db2fc8-79bb-4643-b7dd-9b0877cd25f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏CALL">
+      <UniqueIdentifier>{f67fae28-dec4-48d7-a542-442869d4c2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏基地址">
+      <UniqueIdentifier>{72f5faa5-d1b3-4080-98e2-77baa31ddc4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="硬段HOOK">
+      <UniqueIdentifier>{159ee73a-bd14-431d-a681-c9c9740a3483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="A%2a寻路">
+      <UniqueIdentifier>{b4f5f11d-5788-461e-9295-dbb369aa188c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskItem.h">
+      <Filter>任务管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>任务管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>游戏管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>工具类</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="baseaddr.h">
+      <Filter>游戏基地址</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCall.h">
+      <Filter>游戏CALL</Filter>
+    </ClInclude>
+    <ClInclude Include="Import.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dr7ApiHook.h">
+      <Filter>硬段HOOK</Filter>
+    </ClInclude>
+    <ClInclude Include="GetDirection.h">
+      <Filter>A%2a寻路</Filter>
+    </ClInclude>
+    <ClInclude Include="MuMa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>任务管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskItem.cpp">
+      <Filter>任务管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>游戏管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>工具类</Filter>
+    </ClCompile>
+    <ClCompile Include="baseaddr.cpp">
+      <Filter>游戏基地址</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCall.cpp">
+      <Filter>游戏CALL</Filter>
+    </ClCompile>
+    <ClCompile Include="Dr7ApiHook.cpp">
+      <Filter>硬段HOOK</Filter>
+    </ClCompile>
+    <ClCompile Include="GetDirection.cpp">
+      <Filter>A%2a寻路</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DxfTools.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
