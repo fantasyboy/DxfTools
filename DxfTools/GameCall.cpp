@@ -45,15 +45,17 @@ DWORD GameCall::GetPlayerLevel()
 	return utils::ReadValue<DWORD>(Base_RoleLevelAddr);
 }
 
-#define Base_SendPacketProxyCallAddr 0x03E21C40
+#define Base_SendPacketProxyCallAddr 0x131A3206
 void __declspec(naked) SendPacketProxy()
 {
 	__asm {
 		PUSH EBP
 		MOV EBP, ESP
 		MOV EAX, 40050h
+		PUSH EDX;
 		MOV EDX, Base_SendPacketProxyCallAddr;
 		CALL EDX;
+		POP EDX;
 		PUSH Base_SendPacketAddr + 0xD;
 		RETN
 	}

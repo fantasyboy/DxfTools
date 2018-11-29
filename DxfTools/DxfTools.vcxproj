@@ -73,7 +73,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>log</TargetName>
+    <TargetName>samcli</TargetName>
     <TargetExt>.dll</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -101,7 +101,7 @@
       <AdditionalDependencies>user32.lib;ntdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy "$(ProjectDir)..\Debug\log.dll" "E:\腾讯游戏\地下城与勇士\" /Y
+      <Command>xcopy "$(ProjectDir)..\Debug\samcli.dll" "E:\腾讯游戏\地下城与勇士\" /Y
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>

@@ -76,3 +76,4 @@ namespace GameCall
 //	return (READOFFSET(角色基址, 偏移_角色信息, 0xA8) -
 //		READOFFSET(角色基址, 偏移_角色信息, 0xA4)) / 4;
 //}
+

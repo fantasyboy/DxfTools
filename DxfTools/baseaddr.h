@@ -16,10 +16,10 @@
 #define Base_TaskMaterialCountAddr  0x2F4					//任务材料  没有更新
 #define Base_GameStateAddr			0x0554B34C				//游戏状态
 
-#define Base_SendPacketAddr			0x03727B70				//发包CALL
-#define Base_AllocatePacketAddr		0x03726330				//缓冲CALL
-#define Base_EncryptPacketAddr		0x03726440				//加密包CALL
-#define Base_SendPacketBaseAddr		0x0579EFAC	 			//发包基址
+#define Base_SendPacketAddr			0x3745830				//发包CALL
+#define Base_AllocatePacketAddr		0x3743FF0				//缓冲CALL
+#define Base_EncryptPacketAddr		0x3744100				//加密包CALL
+#define Base_SendPacketBaseAddr		0x57DC43C	 			//发包基址
 
 #define Base_TaskFinishCallAddr		0x01ED7C30				//任务完成CALL
 #define Base_TaskCommitCallAddr		0x01ED7CB0			    //任务提交CALL
@@ -80,7 +80,7 @@
 #define Base_IsInTalkAddr			0x057978B4				//对话基址
 #define Base_HookBaiziAddr			0x026EC242				//HOOK白字
 #define Base_HookGouziAddr			0x027F845D				//HOOK钩子
-#define Base_HookRecvAddr			0x24F73F0				//收包CALL
+#define Base_HookRecvAddr			0x25167F0				//收包CALL
 
 #define Base_PntMoveToPosOffset		0x8C					//坐标顺图 顺图偏移
 #define Base_PntMoveToPosOffsetAddr	0x1744					//坐标顺图2
